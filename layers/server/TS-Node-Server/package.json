@@ -13,7 +13,7 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
-    "test": "npx tsx src/main.ts"
+    "start": "npx tsx src/main.ts"
   },
   "devDependencies": {
     "tsx": "^4.16.2"

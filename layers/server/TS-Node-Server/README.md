@@ -1,30 +1,24 @@
-# Node Testing Scripts
+# TS Node Server
 
 ## Installation
 
-First, ensure you have Node.js installed. Then, install the dependencies:
+To get started, follow these steps:
 
-```bash
-yarn install
-```
+1. Ensure **Node.js** is installed on your system.
+2. Install the necessary dependencies by running the following command in your terminal:
 
-## Running a Simple Test
-To run a simple test, execute the following command. Replace <your_provider_address> with your actual provider address. Ensure the address starts with wss:
+    ```bash
+    yarn install
+    ```
 
-```bash
-yarn test simple <your_provider_address>
-```
-For example:
-```bash
-yarn test simple wss://rpc.vara.network
-```
-Upon successful completion, the test will calculate the gas for `transfer` and `approve`, and check the state in the fungible token contract.
+## Running a project
 
-## Running a Load Test
-To perform load testing on the node, execute the following command. Replace <your_provider_address> with your actual provider address. Ensure the address starts with wss:
+To run, follow these steps:
 
-```bash
-yarn test batch <your_provider_address>
-```
+1. Open your terminal in the project directory.
+2. Execute the following command:
 
-This test sends 10,000 state reading requests to the contract.
+  ```bash
+    yarn start
+    ```
+
