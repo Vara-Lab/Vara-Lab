@@ -1,0 +1,21 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@gear-js/api": "0.37.2",
+    "@polkadot/api": "10.12.6",
+    "@polkadot/types": "10.12.6",
+    "sails-js": "0.1.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "test": "npx tsx src/main.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2"
+  }
+}
